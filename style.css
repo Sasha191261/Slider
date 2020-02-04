@@ -1,0 +1,68 @@
+.slider{
+    position: absolute;
+    right: 50%;
+    top: 20%;
+    display: flex;
+}
+/*
+.viewElement{
+    display: flex;
+    position: relative;
+    height: 250px;
+    width: 1350px;
+    border: 1px solid black;
+    /*overflow: hidden;
+}
+*/
+.area​Visibility{
+    position: relative;
+    display: flex;
+    height: 250px;
+    width: 450px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image{
+    position: relative;
+    height: 250px;
+    width: 450px;
+    right: 450px;
+    transition: 1000ms;
+}
+.buttonNext,
+.buttonFarther{
+    position: relative;
+    top: 107px;
+    /*height: 50px;*/
+    /*width: 50px;*/
+}
+.buttonNext{
+    left: -50px;
+    z-index: 2;
+}
+.buttonFarther{
+    left: 50px;
+    z-index: 2;
+}
+.buttonNext:hover,
+.buttonFarther:hover{
+    cursor: pointer;
+}
+#buttonFarther,
+#buttonNext{
+    height: 40px;
+    width: 40px;
+}
+.switches{
+    position: relative;
+    display: flex;
+    right: 50%;
+    top: 300px;
+}
+.radioButton{
+    zoom: 2;
+}
+.radioButton:hover{
+    cursor:pointer;
+}
